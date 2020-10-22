@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: springcloud-config
+  # 配置Config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yourname/imooc-news-config.git
